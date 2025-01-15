@@ -127,7 +127,7 @@
     font-size: 16px;
     position: absolute;
     font-family: "Gilroy";
-    width: 15%;
+    width: 18%;
     background-color: rgb(24, 2, 2);
     z-index: 999;
     text-align: center;
@@ -141,5 +141,38 @@
     }
     100% {
         transform: translateX(-109%);
+    }
+} 
+
+@media screen and (max-width: 480px) {
+    #main img {
+        height: 50vh;
+    }
+
+    .scroll-div h1 {
+        font-size: 24vw;
+    }
+
+    #text {
+        font-size: 3.5vw;
+        top: 28%;
+    }
+
+    #text2 {
+        font-size: 3vw;
+        top: 11%;
+        width: 40%;
+    }
+
+    #scroll-div {
+        top: 25%;
+    }
+
+    #scroll-div2 {
+        top: 42%;
+    }
+
+    #scroll-div3 {
+        top: 59%;
     }
 }
