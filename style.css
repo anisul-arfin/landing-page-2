@@ -154,8 +154,10 @@
     }
 
     #text {
-        font-size: 3.5vw;
-        top: 27.5%;
+        font-size: 3vw;
+        top: 27%;
+        padding: 18px;
+        text-align: center;
     }
 
     #text2 {
