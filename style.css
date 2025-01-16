@@ -114,7 +114,7 @@
 #text {
     font-size: 29px;
     position: absolute;
-    font-family: "Monument";
+    font-family: "Georgia";
     width: 60%;
     /*background-color: red;*/
     z-index: 999;
@@ -155,13 +155,15 @@
 
     #text {
         font-size: 3.5vw;
-        top: 28%;
+        top: 25%;
+        padding: 20px;
     }
 
     #text2 {
-        font-size: 3vw;
+        font-size: 3.8vw;
         top: 11%;
-        width: 40%;
+        width: 60%;
+        padding: 20px;
     }
 
     #scroll-div {
